@@ -39,3 +39,10 @@ java build.main
 ```
 
 I will copy any important files from /src/ to /build/
+
+You can also run `make dev` wich calls a script called `runlog.py`
+wich keeps a record of when you run the codr and if it has errors.
+
+I can use thr log file it makes along with some screenshots 
+to help me work on the code because I can't run java on my phone.
+(If anyone knows how to get hava on alpine linux ley me know)

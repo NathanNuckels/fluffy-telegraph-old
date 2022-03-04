@@ -6,3 +6,8 @@ jar:
 run:
 	java -jar build/fluffy-telegraph.jar
 
+dev:
+	java -d build/dev/ -verbose src/*.java
+	python runlog.py start
+	java build.dev.main
+	python runlog.py stop
