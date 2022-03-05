@@ -1,1 +1,8 @@
-//run Main.main(args) to run
+//class com.fluffy-telegraph.dev.Main
+
+class Main{
+	public static void main(String args[]){
+		system.out.println("Hello World");
+	}
+}
+
