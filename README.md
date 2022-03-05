@@ -1,5 +1,14 @@
 # fluffy-telegraph
 
+### IMPORTANT
+This reposetory is being moved to `fluffy-telegraph-old` and 
+This repo will be nuked and replaced with an InteliJ project.
+
+I'm sorry about all of this. I got too disorganized so I will start over.
+The `examples/` will be preserved in `fluffy-telegraph-old` for future reference.
+
+---
+
 ### Ideas
 
 I was thinking it could be a chat program powered by google firebase.
