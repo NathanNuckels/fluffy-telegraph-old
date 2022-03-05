@@ -1,13 +1,10 @@
 jar:
-	java -d build/ -verbose src/*.java
+	java -d com/fluffy-telegraph/build/ -verbose src/*.java
 	jar cvef build/fluffy-telegraph.jar Main build/*
-	@echo Finished.
 
 run:
-	java -jar build/fluffy-telegraph.jar
+	java -jar com/fluffy-telegraph/build/fluffy-telegraph.jar
 
 dev:
-	java -d build/dev/ -verbose src/*.java
-	python runlog.py start
-	java build.dev.main
-	python runlog.py stop
+	java -d com/fluffy-telegraph/dev/ -verbose src/*.java
+	java com.fluffy-telegraph.dev
